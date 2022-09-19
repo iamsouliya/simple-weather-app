@@ -28,7 +28,6 @@ router.beforeEach((to, from, next) => {
     to.params.state ? `${to.params.city}, ${to.params.state}` : to.meta.title
   } | The Local Weather`
   next()
-  next()
 })
 
 export default router
